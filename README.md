@@ -1,6 +1,8 @@
 # Nagios Blitz Alert push notification
 
-Inspired by the Slack Nagios plugin to send Nagios alerts to Slac, here is a Nagios plugin to send push notification alerts to Blitz Alert (http://www.blitzalert.me/)
+Inspired by the Slack Nagios plugin to send Nagios alerts to Slack, 
+
+This Nagios plugin is used to send push notification alerts to Blitz Alert (http://www.blitzalert.me/)
 
 ## Setup
 
