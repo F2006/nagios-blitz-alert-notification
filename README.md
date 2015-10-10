@@ -2,11 +2,11 @@
 
 Inspired by the Slack Nagios plugin to send Nagios alerts to Slac, here is a Nagios plugin to send push notification alerts to Blitz Alert (http://www.blitzalert.me/)
 
-Setup
+## Setup
 
-Copy the blitz_nagios.sh bash file, I have used /usr/local/bin
+- Copy the blitz_nagios.sh bash file, I have used /usr/local/bin
 
-Add these commands to your commands.cfg
+- Add these commands to your commands.cfg
 
 ```
 ###############################
@@ -36,7 +36,7 @@ define command {
        }
 ```
 
-Add the following contact to your contacts.cfg
+- Add the following contact to your contacts.cfg
 
 ```
 define contact {
@@ -51,7 +51,7 @@ define contact {
        }
 ```
 
-Add the blitz contact to your contact groups contacts.cfg
+- Add the blitz contact to your contact groups contacts.cfg
 
 ```
 define contactgroup{
