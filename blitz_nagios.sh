@@ -18,4 +18,4 @@ case "${3}" in
 esac
 
 #Send message to Blitz
-curl -X POST --data "${ICON}<br /><br /> <b>HOST:</b><br /> ${1}<br /><br /> <b>SERVICE:</b><br /> ${2}<br /<br /> <b>MESSAGE:</b><br /> ${4}" "http://api.blitzalert.me/send?service=${BLITZ_SERVICE_ID}&user=${BLITZ_USER_ID}&auth=${BLITZ_SERVICE_KEY}"
+curl -X POST --data "${ICON}<br /><br /> <b>HOST:</b><br /> ${1}<br /><br /> <b>SERVICE:</b><br /> ${2}<br /><br /> <b>MESSAGE:</b><br /> ${4}" "http://api.blitzalert.me/send?service=${BLITZ_SERVICE_ID}&user=${BLITZ_USER_ID}&auth=${BLITZ_SERVICE_KEY}"
