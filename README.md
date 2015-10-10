@@ -6,7 +6,7 @@ This Nagios plugin is used to send push notification alerts to Blitz Alert (http
 
 ## Setup
 
-- Copy the blitz_nagios.sh bash file, I have used /usr/local/bin. For Linux, make sure the file is executable ` chmod +x blitz_nagios.sh `
+- Copy the blitz_nagios.sh bash file, I have used /usr/local/bin. For Linux, make sure the file is executable ` sudo chmod +x blitz_nagios.sh `
 
 - Add these commands to your commands.cfg
 
@@ -68,3 +68,4 @@ define contactgroup{
         members                 root,blitz
         }
 ```
+- And finally reload Nagios `  sudo service nagios reload `
