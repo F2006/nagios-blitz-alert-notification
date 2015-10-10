@@ -8,6 +8,7 @@ Copy the blitz_nagios.sh bash file, I have used /usr/local/bin
 
 Add these commands to your commands.cfg
 
+```
 ###############################
 # Blitz Alert notifications
 ###############################
@@ -33,9 +34,11 @@ define command {
                                           "$HOSTOUTPUT$" \
                                           "$NOTIFICATIONTYPE$"
        }
-       
+```
+
 Add the following to your contacts.cfg
 
+```
 define contact {
        contact_name                     blitz
        alias                            Blitz
@@ -58,3 +61,4 @@ define contactgroup{
         alias                   Nagios Administrators
         members                 root,blitz
         }
+```
