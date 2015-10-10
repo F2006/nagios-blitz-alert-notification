@@ -36,7 +36,7 @@ define command {
        }
 ```
 
-Add the following to your contacts.cfg
+Add the following contact to your contacts.cfg
 
 ```
 define contact {
@@ -49,7 +49,11 @@ define contact {
        service_notification_commands    notify-service-by-blitz
        host_notification_commands       notify-host-by-blitz
        }
-       
+```
+
+Add the blitz contact to your contact groups contacts.cfg
+
+```
 define contactgroup{
         contactgroup_name       admins
         alias                   Nagios Administrators
